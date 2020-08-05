@@ -4,8 +4,11 @@
 #include <algorithm>
 #include <vector>
 #include <string>     // std::string, std::to_string
-
-//stoi(str1)
+/*
+    receive an array of non positive integers and arrange them such that they give
+    the largest number possible. For exmaple below 3,30,34,5,9 should result in 
+    9534330
+*/
 bool compareFunc(int i, int j)
 {
     return std::to_string(i) + std::to_string(j) > 
