@@ -1,0 +1,7 @@
+{
+  "root":{"nodes":["a","b","d"],"error":1.3},
+  "a":{"nodes":["c","b"],"error":3.5},
+  "b":{"nodes":["c","d"],"error":1.1},
+  "c":{"nodes":["d"],"error":1.2},
+  "d":{"nodes":[],"error":1.7}
+}
